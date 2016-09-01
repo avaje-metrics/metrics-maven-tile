@@ -8,7 +8,7 @@ In `properties` specify the packages to search for classes to enhance and the de
 
 ```xml
 <properties>
-	<metric.enhance.packages>nz.co.foodstuffs.**</metric.enhance.packages>
+	<metric.enhance.packages>org.example.myapp.**</metric.enhance.packages>
 	<metric.enhance.args>debug=1</metric.enhance.args>
 </properties>		
 ```

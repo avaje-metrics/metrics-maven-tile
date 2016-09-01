@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+  <properties>
+    <metric.enhance.packages>org.example.**</metric.enhance.packages>
+    <metric.enhance.args>debug=1</metric.enhance.args>
+    <metric-maven-plugin.version>4.3.1</metric-maven-plugin.version>
+  </properties>
+
+  <build>
+    <plugins>
+
+      <plugin>
+        <groupId>org.avaje.metric</groupId>
+        <artifactId>enhance-maven-plugin</artifactId>
+        <version>${metric-maven-plugin.version}</version>
+        <executions>
+          <execution>
+            <id>main</id>
+            <phase>process-classes</phase>
+            <configuration>
+              <packages>${metric.enhance.packages}</packages>
+              <transformArgs>${metric.enhance.args}</transformArgs>
+            </configuration>
+            <goals>
+              <goal>enhance</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+
+  </build>
+
+</project>

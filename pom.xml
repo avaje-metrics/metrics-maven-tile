@@ -4,7 +4,7 @@
 
   <groupId>org.avaje.metric</groupId>
   <artifactId>tile-enhance</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <packaging>tile</packaging>
 
   <parent>
@@ -17,7 +17,7 @@
     <connection>scm:git:https://github.com/avaje-metric/metric-maven-tile.git</connection>
     <developerConnection>scm:git:https://github.com/avaje-metric/metric-maven-tile.git</developerConnection>
     <url>https://github.com/avaje-metric/metric-maven-tile.git</url>
-    <tag>HEAD</tag>
+    <tag>tile-enhance-1.1</tag>
   </scm>
 
   <build>

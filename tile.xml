@@ -2,9 +2,7 @@
 <project>
 
   <properties>
-    <metric.enhance.packages>org.example.**</metric.enhance.packages>
-    <metric.enhance.args>debug=1</metric.enhance.args>
-    <metric-maven-plugin.version>5.2.2</metric-maven-plugin.version>
+    <metric-maven-plugin.version>7.1.1</metric-maven-plugin.version>
   </properties>
 
   <build>
@@ -18,10 +16,6 @@
           <execution>
             <id>main</id>
             <phase>process-classes</phase>
-            <configuration>
-              <packages>${metric.enhance.packages}</packages>
-              <transformArgs>${metric.enhance.args}</transformArgs>
-            </configuration>
             <goals>
               <goal>enhance</goal>
             </goals>

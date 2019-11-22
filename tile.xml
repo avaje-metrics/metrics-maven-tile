@@ -2,15 +2,15 @@
 <project>
 
   <properties>
-    <metric-maven-plugin.version>7.3.1</metric-maven-plugin.version>
+    <metric-maven-plugin.version>8.1.1-SNAPSHOT</metric-maven-plugin.version>
   </properties>
 
   <build>
     <plugins>
 
       <plugin>
-        <groupId>org.avaje.metric</groupId>
-        <artifactId>enhance-maven-plugin</artifactId>
+        <groupId>io.avaje.metrics</groupId>
+        <artifactId>metrics-maven-plugin</artifactId>
         <version>${metric-maven-plugin.version}</version>
         <executions>
           <execution>

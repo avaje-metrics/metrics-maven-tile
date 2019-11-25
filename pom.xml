@@ -14,7 +14,7 @@
   </parent>
 
   <scm>
-    <developerConnection>scm:git:git@github.com:avaje-metric/metric-maven-tile.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:avaje-metrics/metrics-maven-tile.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 

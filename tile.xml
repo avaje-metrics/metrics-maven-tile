@@ -2,7 +2,7 @@
 <project>
 
   <properties>
-    <metric-maven-plugin.version>8.4</metric-maven-plugin.version>
+    <metric-maven-plugin.version>8.5</metric-maven-plugin.version>
   </properties>
 
   <build>
